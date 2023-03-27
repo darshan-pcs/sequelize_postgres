@@ -12,4 +12,4 @@ router.post("/register",register)
 router.post("/login",login)
 router.get("/dashboard",auth,dashboard)
 
-module.exports = router // 2. export router to the index.js file  
+module.exports = router // 2export router to the index.js  
